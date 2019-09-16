@@ -16,6 +16,8 @@ print(len(quote))
 
 print(quote[-7:])
 
+print(quote[:26])
+
 print(quote[quote.find(".")])
 
 print(quote[25:51:3])
