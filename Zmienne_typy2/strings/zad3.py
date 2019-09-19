@@ -27,3 +27,9 @@ print(quote[0:51:2])
 print(quote[::-1])
 
 print(quote.replace("wisdom", "friendship"))
+
+half = len(quote)//2
+
+print(half)
+
+print(quote[half::3])
