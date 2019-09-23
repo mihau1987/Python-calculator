@@ -1,0 +1,1 @@
+#Pobierz dwie wartości int od użytkownika i oblicz ich sumę. Jeśli suma jest większa niż 100, wyświetl ich sumę.a = int(input("Podaj wartość a: "))b = int(input("Podaj wartość b: "))print("a + b =",a + b)if a + b >= 100:    print(a + b)else:    print("Pusta przestrzeń - suma liczb a i b jest mniejsza od 100")
