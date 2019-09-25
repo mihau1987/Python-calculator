@@ -7,9 +7,9 @@ a_Line = "Palin and Cleese"
 
 print(len(a_Line))
 
-print(a_Line.count("a"))
+print(a_Line.find("a"))
 
 
-if a_Line.count("a"):
+if a_Line.find("a"):
     print(a_Line.replace("a", "z"))
 
