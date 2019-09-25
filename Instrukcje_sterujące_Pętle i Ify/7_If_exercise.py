@@ -5,7 +5,7 @@ BMI = b / (a ** 2)
 
 print("BMI = ",BMI)
 
-if BMI > 14 and BMI < 18:
+if BMI > 14 and BMI < 18.49:
     print("Niedowaga")
 elif BMI > 18.5 and BMI < 24.99:
     print("Waga prawidłowa")
