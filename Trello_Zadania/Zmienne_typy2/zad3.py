@@ -1,3 +1,13 @@
-# Zadanie 3
-# Dla podanej liczby w systemie dwójkowym bin_num = 1001111 oblicz wartość w systemie dziesiętnym.
-# Zamianę z systemu binarnego na dziesiętny napisz samodzielnie (nie korzystaj z metody wbudowanej).
+# Zadanie 5
+# Zwróć wartość True, jeżeli liczba jest parzysta.
+
+
+if (4%2 == 0):
+    print(True)
+else:
+    print(False)
+
+
+# lub prostszy wariant, czyli po prostu:
+
+print(4%2 == 0)
