@@ -6,3 +6,6 @@ BMI = waga/(wzrost**2)
 
 print("Twoje BMI wynosi:", BMI)
 
+
+
+#TBC...
