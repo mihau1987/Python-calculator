@@ -7,5 +7,13 @@ BMI = waga/(wzrost**2)
 print("Twoje BMI wynosi:", BMI)
 
 
-
-#TBC...
+if BMI <= 18.5:
+    print("Niedowaga")
+elif BMI > 18.5 and BMI < 24:
+    print("Waga normalna")
+elif BMI > 24 and BMI < 26.5:
+    print("Lekka nadwaga")
+elif BMI > 26.5 and BMI < 30:
+    print("Nadwaga")
+else:
+    print("Udaj się niezwłocznie do lekarza!")
