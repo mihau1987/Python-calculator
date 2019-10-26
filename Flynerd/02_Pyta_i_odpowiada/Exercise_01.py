@@ -9,9 +9,11 @@ Odpowiedział (dowolnie łącząc wiek i peron), czy jest sens jechać do Hogwar
 
 name = input("Jak masz na imię? ")
 
-print("Cześć", name,"Miło Cię poznać!")
+print("Witaj", name, "miło Cię poznać!")
 
 wiek = input("Ile masz lat? ")
-peron = input("Z którego peronu dostaniesz się do Hogwartu? ")
 
-print("W wieku",wiek, "lat, nie ma sensu jechać do Hogwartu z peronu", peron)
+peron = input("Z jakiego peronu dostaniesz się do howgartu? ")
+
+print("W wieku", wiek, "lat chyba już nie ma sensu jechać na peron", peron)
+
