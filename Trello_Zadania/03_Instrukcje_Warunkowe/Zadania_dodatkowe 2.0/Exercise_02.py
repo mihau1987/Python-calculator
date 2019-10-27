@@ -33,13 +33,40 @@ else:
 
 
 #Podejście no 2:
-dzwiek = int(input("Podaj wysokosc dzwieku w Hz: "))
+'''dzwiek = int(input("Podaj wysokosc dzwieku w Hz: "))
 
 if dzwiek < gorna_granica and dzwiek > dolna_granica:
     print("Podany dzwiek jest slyszalny dla czlowieka")
 else:
-    print("Podany dzwiek nie jest słyszalny dla czlowieka")
+    print("Podany dzwiek nie jest słyszalny dla czlowieka")'''
 
+
+
+
+'''
+Rozszerz zadanie.
+Przyjmij od użytkownika dowolne zwierzę, a następnie jego zakres słuchu.
+Wyświetl kto słyszy więcej (ma większy zakres) - człowiek czy sprawdzane zwierzę.
+
+pies 15 do 30 000 Hz ("Więcej słyszy pies")
+żaby 50 do 300 Hz ("Więcej słyszy człowiek")
+'''
+
+animal = input("Wybierz zwierzę: ")
+
+ears = input("Podaj jego zakres słuchu: ")
+
+ears = ears.split("-")
+
+print(ears)
+
+if int(ears[0]) < dolna_granica and int(ears[1]) > gorna_granica:
+    print("Więcej słyszy pies")
+elif int(ears[0]) > dolna_granica and int(ears[1]) < gorna_granica:
+    print("Wiecej slyszy czlowiek")
+else:
+    print("Niezgodność danych")
+                                
 
 
             
