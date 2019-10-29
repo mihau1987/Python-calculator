@@ -11,7 +11,9 @@ Zakładamy, że chcesz jak najwięcej banknotów z każdego nominału od (100, z
 
 currency = input("Which currency you like to convert the money into?: ")
 
-amount_PLN = float(input("Enter the amount of money in PLN you wish to convert: "))
+amount_PLN = float(input("Enter the amount of money you wish to convert: "))
+
+option = int(input("Enter: \n 1- from PLN\n 2- to PLN:\n"))
 
 EUR = 4.27
 
@@ -21,11 +23,18 @@ HUF = 0.01
 
 
 if currency == "EUR":
-    print(round(amount_PLN * EUR,2))
+        if option == 1:
+            print(round(amount_PLN/EUR,2))
+        if option == 2:
+            print(round(amount_PLN*EUR,2))
 elif currency == "USD":
     print(round(amount_PLN * USD,2))
+    print(round(amount_PLN/USD,2))
 elif currency == "HUF":
     print(round(amount_PLN * HUF,2))
+    print(round(amount_PLN/HUF,2))
+
+
 
 
 
