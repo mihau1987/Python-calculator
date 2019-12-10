@@ -4,3 +4,23 @@
    box-sizing: border-box;
 
 }
+
+body {
+    background-color: red;
+}
+#container {
+    max-width: 2000px;
+    margin: 30px 30px;
+    background-color: white;
+    padding-bottom: 225px;
+}
+main {
+    background-color: white;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
